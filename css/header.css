@@ -1,20 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600&display=swap");
 /*------PRIMARY COLORS------*/
 /*------SECONDARY COLORS------*/
 /*------NEUTRAL COLORS------*/
 /*------SHADOW COLORS------*/
 /*------LINEAR COLORS------*/
 /*------DARK COLORS------*/
+/*------BACKGROUND COLORS------*/
+* {
+  margin: 0;
+  color: #031432;
+  font-weight: 400;
+  font-family: poppins, "sans-serif";
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 /*------PRIMARY COLORS------*/
 /*------SECONDARY COLORS------*/
 /*------NEUTRAL COLORS------*/
 /*------SHADOW COLORS------*/
 /*------LINEAR COLORS------*/
 /*------DARK COLORS------*/
+/*------BACKGROUND COLORS------*/
+/*------PRIMARY COLORS------*/
+/*------SECONDARY COLORS------*/
+/*------NEUTRAL COLORS------*/
+/*------SHADOW COLORS------*/
+/*------LINEAR COLORS------*/
+/*------DARK COLORS------*/
+/*------BACKGROUND COLORS------*/
 header {
   margin: 0 auto 48px;
   height: 56px;
   max-width: 1264px;
-  border: 1px solid;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -24,11 +50,9 @@ header {
 header .logoBrand {
   width: auto;
   height: 49px;
-  border: 1px solid;
 }
 header nav {
   width: 356px;
-  border: 1px solid;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -39,10 +63,10 @@ header nav .navLink {
   color: #6C87AE;
 }
 header nav .navLink:first-child {
-  color: #6F3AFA;
+  color: #3A8EF6;
 }
 header nav a:hover {
-  color: #6F3AFA;
+  color: #3A8EF6;
 }
 header .conversionCta {
   padding: 0 40px;
