@@ -6,7 +6,6 @@ header
     margin: 0 auto 48px ;
     height: 56px;
     max-width: 1264px;
-    border: 1px solid;
     @include flex-positionning(space-between, center);
 
     .logoBrand
@@ -19,7 +18,6 @@ header
     nav
     {
         width: 356px;
-        border: 1px solid;
         @include flex-positionning(space-between);
     }
 
