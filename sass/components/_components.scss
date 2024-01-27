@@ -1,0 +1,70 @@
+@import "../base/reset";
+@import "../utils/mixins";
+@import "../utils/variables";
+
+/*-
+    Some of styles have same properties, so I
+    just create a big section component, to not
+    repeat myself!
+-
+*/
+
+
+.sectionContainer
+{
+    padding: 80px;
+    width: max-content;
+    margin: 24px auto;
+    @include flex-positionning(center);
+
+    .sectionContainer__Div
+    {
+        gap: 14px;
+        width: 480px;
+        height: 424px;
+        @include flex-positionning(start, start, column);
+
+        
+        h3
+        {
+            font-weight: 500;
+            @include outlineText;
+        }
+
+        h2
+        {
+            color: $dark;
+            font-size: 32px;
+            font-weight: 600;
+            word-wrap: break-word;
+        }
+
+        p
+        {
+            color: $neutralGray;
+        }
+
+    }
+}
+
+.Cta
+{
+    padding: 0 40px;
+    transition: box-shadow ease-in 500ms;
+    @include flex-positionning(space-between);
+    @include mainButtonCreation(288px, 56px, $primaryGradient);
+}
+
+.whiteCta
+{
+    padding: 0 40px;
+    transition: box-shadow ease-in 500ms;
+    @include flex-positionning(space-between);
+    @include mainButtonCreation(288px, 56px, white);
+    color: $primaryBlue;
+}
+
+.Cta:hover
+{
+    box-shadow: 0 8px 23px $blueShadow;
+}

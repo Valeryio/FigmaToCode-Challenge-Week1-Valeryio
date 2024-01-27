@@ -1,0 +1,52 @@
+@import "../utils/mixins";
+@import "../utils/variables";
+
+header
+{
+    margin: 0 auto 48px ;
+    height: 56px;
+    max-width: 1264px;
+    border: 1px solid;
+    @include flex-positionning(space-between, center);
+
+    .logoBrand
+    {
+        width: auto;
+        height: 49px;
+        border: 1px solid;
+    }
+
+    nav
+    {
+        width: 356px;
+        border: 1px solid;
+        @include flex-positionning(space-between);
+    }
+
+    nav .navLink
+    {
+        color: $neutralGray;
+    }
+    nav .navLink:first-child
+    {
+        color: $primaryBlue;
+    }
+
+    nav a:hover
+    {
+        color: $primaryBlue;
+    }
+
+    .conversionCta
+    {
+        padding: 0 40px;
+        transition: box-shadow ease-in 500ms;
+        @include flex-positionning(space-between);
+        @include mainButtonCreation(184px, 56px, $primaryGradient);
+    }
+
+    .conversionCta:hover
+    {
+        box-shadow: 0 8px 23px $blueShadow;
+    }
+}

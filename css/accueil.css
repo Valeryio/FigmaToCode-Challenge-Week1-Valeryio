@@ -1,0 +1,561 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600&display=swap");
+/*------PRIMARY COLORS------*/
+/*------SECONDARY COLORS------*/
+/*------NEUTRAL COLORS------*/
+/*------SHADOW COLORS------*/
+/*------LINEAR COLORS------*/
+/*------DARK COLORS------*/
+/*------BACKGROUND COLORS------*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600&display=swap");
+* {
+  margin: 0;
+  color: #031432;
+  font-weight: 400;
+  font-family: poppins, "sans-serif";
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*------PRIMARY COLORS------*/
+/*------SECONDARY COLORS------*/
+/*------NEUTRAL COLORS------*/
+/*------SHADOW COLORS------*/
+/*------LINEAR COLORS------*/
+/*------DARK COLORS------*/
+/*------BACKGROUND COLORS------*/
+/*------PRIMARY COLORS------*/
+/*------SECONDARY COLORS------*/
+/*------NEUTRAL COLORS------*/
+/*------SHADOW COLORS------*/
+/*------LINEAR COLORS------*/
+/*------DARK COLORS------*/
+/*------BACKGROUND COLORS------*/
+/*------PRIMARY COLORS------*/
+/*------SECONDARY COLORS------*/
+/*------NEUTRAL COLORS------*/
+/*------SHADOW COLORS------*/
+/*------LINEAR COLORS------*/
+/*------DARK COLORS------*/
+/*------BACKGROUND COLORS------*/
+* {
+  margin: 0;
+  color: #031432;
+  font-weight: 400;
+  font-family: poppins, "sans-serif";
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*------PRIMARY COLORS------*/
+/*------SECONDARY COLORS------*/
+/*------NEUTRAL COLORS------*/
+/*------SHADOW COLORS------*/
+/*------LINEAR COLORS------*/
+/*------DARK COLORS------*/
+/*------BACKGROUND COLORS------*/
+* {
+  margin: 0;
+  color: #031432;
+  font-weight: 400;
+  font-family: poppins, "sans-serif";
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*------PRIMARY COLORS------*/
+/*------SECONDARY COLORS------*/
+/*------NEUTRAL COLORS------*/
+/*------SHADOW COLORS------*/
+/*------LINEAR COLORS------*/
+/*------DARK COLORS------*/
+/*------BACKGROUND COLORS------*/
+/*------PRIMARY COLORS------*/
+/*------SECONDARY COLORS------*/
+/*------NEUTRAL COLORS------*/
+/*------SHADOW COLORS------*/
+/*------LINEAR COLORS------*/
+/*------DARK COLORS------*/
+/*------BACKGROUND COLORS------*/
+/*-
+    Some of styles have same properties, so I
+    just create a big section component, to not
+    repeat myself!
+-
+*/
+.sectionContainer {
+  padding: 80px;
+  width: max-content;
+  margin: 24px auto;
+  border: 1px solid green;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.sectionContainer .sectionContainer__Div {
+  gap: 14px;
+  width: 480px;
+  height: 424px;
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.sectionContainer .sectionContainer__Div h3 {
+  font-weight: 500;
+  display: block;
+  color: #00BFA5;
+}
+.sectionContainer .sectionContainer__Div h2 {
+  color: #031432;
+  font-size: 32px;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+.sectionContainer .sectionContainer__Div p {
+  color: #6C87AE;
+}
+
+.Cta {
+  padding: 0 40px;
+  transition: box-shadow ease-in 500ms;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 288px;
+  height: 56px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 28px;
+  background: linear-gradient(to right, #3A8EF6, #6F3AFA);
+}
+
+.whiteCta {
+  padding: 0 40px;
+  transition: box-shadow ease-in 500ms;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 288px;
+  height: 56px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 28px;
+  background: white;
+  color: #3A8EF6;
+}
+
+.Cta:hover {
+  box-shadow: 0 8px 23px rgba(65, 132, 247, 0.24);
+}
+
+.heroContainer {
+  height: 90vh;
+  margin: auto;
+  padding: 32px 0 0 0;
+  border-radius: 0 0 32px 32px;
+  background-color: #F2F7FF;
+}
+.heroContainer .heroHeader {
+  width: max-content;
+  display: flex;
+  padding: 0 32px;
+  margin: auto;
+}
+.heroContainer .companieValues {
+  height: 77px;
+  width: 916px;
+  margin: 4px auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heroHeader .heroDescription {
+  padding: 148px 0 0 128px;
+}
+.heroHeader .heroImg {
+  width: 678px;
+}
+
+.heroDescription > * {
+  margin: 0 0 16px 0;
+}
+.heroDescription .outlineText {
+  display: block;
+  color: #00BFA5;
+}
+.heroDescription h1 {
+  line-height: 57.6px;
+  font-size: 48px;
+  font-weight: 700;
+}
+.heroDescription .heroText {
+  width: 80%;
+  color: #6C87AE;
+}
+
+.companieValues .valueCard {
+  gap: 12px;
+  width: 295px;
+  height: 77px;
+  border-radius: 12px;
+  padding: 8px 18px 8px 18px;
+  background-color: #3A8EF6;
+  display: flex;
+  flex-wrap: no-wrap;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.valueCardDetails {
+  max-width: max-content;
+}
+.valueCardDetails * {
+  color: white;
+}
+.valueCardDetails h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+.valueCardDetails p {
+  font-family: "Sora", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.allServicesPresentation {
+  padding: 128px;
+  background: #F2F7FF;
+}
+
+.servicesCardContainer {
+  gap: 32px;
+  margin: auto;
+  max-width: 1110px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.servicesCardContainer .serviceCard {
+  gap: 24px;
+  width: 346px;
+  height: 461px;
+  cursor: pointer;
+  padding: 16px 32px;
+  border-radius: 24px;
+  background-color: white;
+  transition: box-shadow ease-in 0.2s;
+  box-shadow: 0 4px 32px rgba(3, 9, 50, 0.04);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.serviceCard > img {
+  margin: auto;
+  height: 200px;
+  display: block;
+}
+.serviceCard p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #6C87AE;
+  word-wrap: break-word;
+  font-family: Sora, sans-serif;
+}
+
+.serviceCard:hover {
+  box-shadow: 0 4px 32px rgba(3, 9, 50, 0.08);
+}
+
+.servicesAndMeeting .ctaSection {
+  max-width: 1440px;
+  height: 632px;
+  padding: 80px 0;
+  margin: auto;
+}
+.servicesAndMeeting .videoSection {
+  margin: 24px auto;
+  max-width: max-content;
+}
+.servicesAndMeeting .doctorMessage {
+  margin: auto;
+  max-width: 844px;
+}
+.servicesAndMeeting .companyValuesItems {
+  margin: 80px 0;
+  gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ctaSection h3 {
+  margin: 8px 0;
+  text-align: center;
+  display: block;
+  color: #00BFA5;
+}
+.ctaSection .callToAction {
+  margin: auto;
+  max-width: 1068px;
+  height: 315px;
+  padding: 80px 80px;
+  border-radius: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #3A8EF6;
+}
+
+.callToAction > * {
+  margin: 8px 0;
+}
+.callToAction h2 {
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+.callToAction p {
+  color: white;
+  text-align: center;
+}
+
+.videoSection h3 {
+  margin: 8px 0;
+  text-align: center;
+  display: block;
+  color: #00BFA5;
+}
+
+.doctorMessage > * {
+  margin: 8px 0;
+  text-align: center;
+}
+.doctorMessage h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+.doctorMessage p {
+  color: #6C87AE;
+  font-size: 16px;
+  font-family: Sora;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.companyValuesItems div {
+  min-width: max-content;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: 0 4px 32px rgba(3, 9, 50, 0.08);
+}
+
+.testimonials {
+  padding: 128px 0;
+  background-color: #F2F7FF;
+}
+.testimonials .testimonialsDescriptionSection {
+  max-width: 676px;
+  margin: auto;
+}
+
+.testimonialsDescriptionSection > * {
+  padding: 12px;
+}
+.testimonialsDescriptionSection .testimonialsTitle {
+  color: #031432;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  word-wrap: break-word;
+}
+.testimonialsDescriptionSection .testimonialsDescription {
+  color: #6C87AE;
+  text-align: center;
+  font-size: 16px;
+  font-family: Sora;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.testimonialsCardContainer {
+  gap: 28px;
+  margin: auto;
+  position: relative;
+  max-width: 1075px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.testimonialsCardContainer .arrow {
+  top: 50%;
+  cursor: pointer;
+  position: absolute;
+  transform: translatey(-50%);
+}
+.testimonialsCardContainer .arrow-left {
+  left: 0;
+}
+.testimonialsCardContainer .arrow-right {
+  right: 0;
+}
+.testimonialsCardContainer .testimonialsCard {
+  width: 469px;
+  height: 164px;
+  padding: 28px;
+  cursor: pointer;
+  background: white;
+  border-radius: 32px;
+  box-shadow: 0 4px 32px rgba(3, 9, 50, 0.04);
+}
+.testimonialsCardContainer .testimonialsCard:hover {
+  box-shadow: 0 4px 32px rgba(3, 9, 50, 0.1);
+}
+
+.testimonialsCard p {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+  word-wrap: break-word;
+}
+.testimonialsCard .testimonialsAuthor {
+  gap: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.testimonialsAuthor .testimonialsAuthorName {
+  font-size: 18px;
+  display: block;
+  color: #00BFA5;
+}
+
+.footerContent {
+  gap: 164px;
+  height: 394px;
+  padding: 48px 80px;
+  background-color: #3A8EF6;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: top;
+}
+.footerContent .websiteGeneralInformations {
+  gap: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.footerContent .websitePlan {
+  gap: 112px;
+  padding: 8px 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+}
+
+.websiteGeneralInformations > * {
+  color: white;
+}
+.websiteGeneralInformations p {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+  word-wrap: break-word;
+}
+.websiteGeneralInformations .socialMedia {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.websitePlan nav {
+  gap: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: start;
+  align-items: left;
+}
+.websitePlan nav > * {
+  color: white;
+}
+.websitePlan nav h3 {
+  font-weight: 600;
+}
+.websitePlan nav a {
+  font-size: 16px;
+  font-family: Sora;
+  font-weight: 200;
+  word-wrap: break-word;
+}
+
+/*# sourceMappingURL=accueil.css.map */

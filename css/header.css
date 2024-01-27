@@ -1,0 +1,68 @@
+/*------PRIMARY COLORS------*/
+/*------SECONDARY COLORS------*/
+/*------NEUTRAL COLORS------*/
+/*------SHADOW COLORS------*/
+/*------LINEAR COLORS------*/
+/*------DARK COLORS------*/
+/*------PRIMARY COLORS------*/
+/*------SECONDARY COLORS------*/
+/*------NEUTRAL COLORS------*/
+/*------SHADOW COLORS------*/
+/*------LINEAR COLORS------*/
+/*------DARK COLORS------*/
+header {
+  margin: 0 auto 48px;
+  height: 56px;
+  max-width: 1264px;
+  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logoBrand {
+  width: auto;
+  height: 49px;
+  border: 1px solid;
+}
+header nav {
+  width: 356px;
+  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .navLink {
+  color: #6C87AE;
+}
+header nav .navLink:first-child {
+  color: #6F3AFA;
+}
+header nav a:hover {
+  color: #6F3AFA;
+}
+header .conversionCta {
+  padding: 0 40px;
+  transition: box-shadow ease-in 500ms;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 184px;
+  height: 56px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 28px;
+  background: linear-gradient(to right, #3A8EF6, #6F3AFA);
+}
+header .conversionCta:hover {
+  box-shadow: 0 8px 23px rgba(65, 132, 247, 0.24);
+}
+
+/*# sourceMappingURL=header.css.map */

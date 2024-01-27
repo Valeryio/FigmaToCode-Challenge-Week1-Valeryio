@@ -1,0 +1,473 @@
+@import "../utils/mixins";
+@import "../utils/variables";
+@import "../components/components";
+
+.heroContainer
+{
+    height: 90vh;
+    margin: auto;
+    padding: calc(16px * 2) 0 0 0;
+    border-radius: 0 0 32px 32px;
+    background-color: $blueOceanBackground;
+
+    .heroHeader
+    {
+        width: max-content;
+        display: flex;
+        padding: 0 32px;
+        margin: auto;
+    } 
+
+    .companieValues
+    {
+        height: 77px;
+        width: 916px;
+        margin: 4px auto;
+        @include flex-positionning(space-between, center);
+    }
+}
+
+.heroHeader
+{
+
+    .heroDescription
+    {
+        padding: 148px 0 0 128px;
+    }
+
+    .heroImg
+    {
+        width: 678px;
+    }    
+
+}
+
+.heroDescription
+{
+    > *
+    {
+        margin: 0 0 16px 0;
+    }
+
+    .outlineText
+    {
+        @include outlineText;
+    }
+
+    h1
+    {
+        line-height: 57.6px;
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+    .heroText
+    {
+        width: 80%;
+        color: $neutralGray;
+    }
+}
+
+.companieValues
+{
+
+    .valueCard
+    {
+        gap: 12px;
+        width: 295px;
+        height: 77px;
+        border-radius: 12px;
+        padding: 8px 18px 8px 18px;
+        background-color: $primaryBlue;
+        @include flex-positionning(start, center, row, no-wrap);
+    }
+}
+
+.valueCardDetails
+{
+    max-width: max-content;
+
+    *
+    {
+        color: white;
+    }
+
+    h3
+    {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+    }
+
+    p
+    {
+        font-family: 'Sora', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17px;
+    }
+}
+
+
+.allServicesPresentation
+{
+    padding: 128px;
+    background: $blueOceanBackground;
+}
+
+.servicesCardContainer
+{
+    gap: 32px;
+    margin: auto;
+    max-width: 1110px;
+    @include flex-positionning(start, center);
+
+    .serviceCard
+    {
+        gap: 24px;
+        width: 346px;
+        height: 461px;
+        cursor: pointer;
+        padding: 16px 32px;
+        border-radius: 24px;
+        background-color: white;
+        transition: box-shadow ease-in 0.2s;
+        box-shadow: 0 4px 32px rgba(3, 9, 50, 0.04);
+        @include flex-positionning(space-between, start, column)
+    }
+
+}
+
+
+.serviceCard
+{
+    > img
+    {
+        margin: auto;
+        height: 200px;
+        display: block;
+    }
+
+    p
+    {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: $neutralGray;
+        word-wrap: break-word;
+        font-family: Sora, sans-serif;
+    }
+
+}
+
+.serviceCard:hover
+{
+    box-shadow: 0 4px 32px rgba(3, 9, 50, 0.08);
+}
+
+
+.servicesAndMeeting
+{
+
+    .ctaSection
+    {
+        max-width: 1440px;
+        height: 632px;
+        padding: 80px 0;
+        margin: auto;
+    }
+
+    .videoSection
+    {
+        margin: 24px auto;
+        max-width: max-content;
+    }
+
+    .doctorMessage
+    {
+        margin: auto;
+        max-width: 844px;
+    }
+
+    .companyValuesItems
+    {
+        margin: 80px 0;
+        gap: 24px;
+        @include flex-positionning();
+    }
+
+}
+
+
+
+.ctaSection
+{
+    h3
+    {
+        margin: 8px 0;
+        text-align: center;
+        @include outlineText;
+    }
+
+    .callToAction
+    {
+        margin: auto;
+        max-width: 1068px;
+        height: 315px;
+        padding: 80px 80px;
+        border-radius: 32px;
+        @include flex-positionning();
+        background-color: $primaryBlue;
+    }
+}
+
+.callToAction
+{
+    >*
+    {
+        margin: 8px 0;
+    }
+
+    h2
+    {
+        color: white;
+        font-size: 32px;
+        font-weight: 600;
+        word-wrap: break-word
+    }
+
+    p
+    {
+        color: white;
+        text-align: center;
+    }
+}
+
+.videoSection
+{
+    h3
+    {
+        margin: 8px 0;
+        text-align: center;
+        @include outlineText;
+    }
+}
+
+.doctorMessage
+{
+    >*
+    {
+        margin: 8px 0;
+        text-align: center;
+    }
+
+    h2
+    {
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    p
+    {
+        color: $neutralGray;
+        font-size: 16px;
+        font-family: Sora;
+        font-weight: 400;
+        line-height: 24px;
+        word-wrap: break-word
+    }
+}
+
+.companyValuesItems
+{
+    div
+    {
+        min-width: max-content;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        box-shadow: 0 4px 32px rgba(3, 9, 50, 0.08);
+    }
+}
+
+
+
+.testimonials
+{
+    padding: 128px 0;
+    background-color: $blueOceanBackground;
+
+    .testimonialsDescriptionSection
+    {
+        max-width: 676px;
+        margin: auto;
+    }
+    
+}
+
+.testimonialsDescriptionSection
+{
+
+    > *
+    {
+        padding: 12px;
+    }
+
+    .testimonialsTitle
+    {
+        color: $dark;
+        font-size: 32px;
+        font-weight: 600;
+        text-align: center;
+        word-wrap: break-word
+    }
+
+    .testimonialsDescription
+    {
+        color: $neutralGray;
+        text-align: center;
+        font-size: 16px;
+        font-family: Sora;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+
+}
+
+.testimonialsCardContainer
+{
+    gap: 28px;
+    margin: auto;
+    position: relative;
+    max-width: 1075px;
+    @include flex-positionning(center, center);
+
+    .arrow
+    {
+        top: 50%;
+        cursor: pointer;
+        position: absolute;
+        transform: translatey(-50%);
+    }
+    
+    .arrow-left
+    {
+        left: 0;
+    }
+
+    .arrow-right
+    {
+        right: 0;
+    }
+
+    .testimonialsCard
+    {
+        width: 469px;
+        height: 164px;
+        padding: 28px;
+        cursor: pointer;
+        background: white;
+        border-radius: 32px;
+        box-shadow: 0 4px 32px rgba(3, 9, 50, 0.04);
+    }
+
+    .testimonialsCard:hover
+    {
+        box-shadow: 0 4px 32px rgba(3, 9, 50, 0.1);
+    }
+
+}
+
+.testimonialsCard
+{
+    p
+    {
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 300;
+        word-wrap: break-word
+    }
+
+    .testimonialsAuthor
+    {
+        gap: 16px;
+        @include flex-positionning(start);
+    }
+}
+
+.testimonialsAuthor
+{
+    .testimonialsAuthorName
+    {
+        font-size: 18px;
+        @include outlineText;
+    }
+}
+
+.footerContent
+{
+    gap: 164px;
+    height: 394px;
+    padding: 48px 80px;
+    background-color: $primaryBlue;
+    @include flex-positionning(center, top);
+
+    .websiteGeneralInformations
+    {
+        gap: 16px;
+        @include flex-positionning(start, start, column);
+    }
+
+    .websitePlan
+    {
+        gap: 112px;
+        padding: 8px 0;
+        @include flex-positionning(space-between, top);
+    }
+}
+
+.websiteGeneralInformations
+{
+    > *
+    {
+        color: white;
+    }
+     
+    p
+    {
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 300;
+        word-wrap: break-word
+    }
+
+    .socialMedia
+    {
+        width: 50%;
+        @include flex-positionning(space-between);
+    }
+}
+
+.websitePlan nav
+{
+    gap: 12px;
+    @include flex-positionning(start, left, column);
+
+    > *
+    {
+        color: white;
+    }
+
+    h3
+    {
+        font-weight: 600;
+    }
+
+    a
+    {
+        font-size: 16px;
+        font-family: Sora;
+        font-weight: 200;
+        word-wrap: break-word
+    }
+}

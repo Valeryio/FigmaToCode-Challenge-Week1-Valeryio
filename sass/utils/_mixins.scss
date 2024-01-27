@@ -1,0 +1,30 @@
+@import "../base/reset";
+@import "variables.scss";
+
+
+@mixin flex-positionning($justifyProperty: center,  $alignProperty: center, $direction: row, $wrapStatus: wrap)
+{
+    display: flex;
+    flex-wrap: $wrapStatus;
+    flex-direction: $direction;
+    justify-content: $justifyProperty;
+    align-items: $alignProperty;
+}
+
+@mixin mainButtonCreation($buttonWidth: 128px, $buttonheight: 128px, $buttonBkg: $primaryBlue)
+{
+    width: $buttonWidth;
+    height: $buttonheight;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 28px;
+    background: $buttonBkg;
+}
+
+@mixin outlineText
+{
+    display: block;
+    color: $primaryTile;
+}
