@@ -13,7 +13,7 @@
 .sectionContainer
 {
     padding: 80px;
-    width: max-content;
+    width: 100vw;
     margin: 24px auto;
     @include flex-positionning(center);
 
@@ -43,7 +43,6 @@
         {
             color: $neutralGray;
         }
-
     }
 }
 

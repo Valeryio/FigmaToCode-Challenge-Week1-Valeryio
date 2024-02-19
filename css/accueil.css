@@ -109,7 +109,7 @@ a {
 */
 .sectionContainer {
   padding: 80px;
-  width: max-content;
+  width: 100vw;
   margin: 24px auto;
   display: flex;
   flex-wrap: wrap;
@@ -184,16 +184,19 @@ a {
 }
 
 .heroContainer {
-  height: 90vh;
   margin: auto;
   padding: 32px 0 0 0;
   border-radius: 0 0 32px 32px;
   background-color: #F2F7FF;
 }
 .heroContainer .heroHeader {
-  display: flex;
   padding: 0 32px;
   margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
 }
 .heroContainer .companieValues {
   height: 77px;
@@ -207,10 +210,12 @@ a {
 }
 
 .heroHeader .heroDescription {
-  padding: 148px 0 0 128px;
+  width: 632px;
+  padding: 0 0 0 80px;
 }
 .heroHeader .heroImg {
-  width: 678px;
+  width: auto;
+  height: 506px;
 }
 
 .heroDescription > * {
@@ -263,7 +268,6 @@ a {
 }
 
 .allServicesPresentation {
-  padding: 128px;
   background: #F2F7FF;
 }
 
@@ -485,74 +489,6 @@ a {
   font-size: 18px;
   display: block;
   color: #00BFA5;
-}
-
-.footerContent {
-  gap: 164px;
-  height: 394px;
-  padding: 48px 80px;
-  background-color: #3A8EF6;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  align-items: top;
-}
-.footerContent .websiteGeneralInformations {
-  gap: 16px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
-}
-.footerContent .websitePlan {
-  gap: 112px;
-  padding: 8px 0;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: top;
-}
-
-.websiteGeneralInformations > * {
-  color: white;
-}
-.websiteGeneralInformations p {
-  font-size: 16px;
-  font-style: italic;
-  font-weight: 300;
-  word-wrap: break-word;
-}
-.websiteGeneralInformations .socialMedia {
-  width: 50%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.websitePlan nav {
-  gap: 12px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: start;
-  align-items: left;
-}
-.websitePlan nav > * {
-  color: white;
-}
-.websitePlan nav h3 {
-  font-weight: 600;
-}
-.websitePlan nav a {
-  font-size: 16px;
-  font-family: Sora;
-  font-weight: 200;
-  word-wrap: break-word;
 }
 
 /*# sourceMappingURL=accueil.css.map */

@@ -1,0 +1,97 @@
+@import "../utils/mixins";
+@import "../utils/variables";
+
+footer
+{
+    padding: 16px 80px;
+    background-color: $primaryBlue;
+
+    hr
+    {
+        width: 80%;
+        height: 1px;
+        border: none;
+        margin: 20px auto;
+        background-color: white;
+    }
+
+    p
+    {
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: white;
+        text-align: center;
+    }
+}
+
+.footerContent
+{
+    gap: 80px;
+    padding: 48px 80px;
+    // border: 1px solid;
+    @include flex-positionning(center, top);
+
+    .websiteGeneralInformations
+    {
+        gap: 16px;
+        // border: 1px solid gray;
+        @include flex-positionning(start, start, column);
+    }
+
+    .websitePlan
+    {
+        gap: 96px;
+        // bordeR : 1px solid red;
+        @include flex-positionning(space-between, top);
+    }
+}
+
+.websiteGeneralInformations
+{
+    > *
+    {
+        color: white;
+        // border: 1px solid;
+    }
+     
+    p
+    {
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 300;
+        word-wrap: break-word;
+        text-align: left;
+    }
+
+    .socialMedia
+    {
+        width: 70%;
+        @include flex-positionning(space-between);
+    }
+}
+
+.websitePlan nav
+{
+    gap: 12px;
+    @include flex-positionning(start, left, column);
+
+    > *
+    {
+        color: white;
+    }
+
+    h3
+    {
+        font-weight: 600;
+    }
+
+    a
+    {
+        font-size: 16px;
+        font-family: Sora;
+        font-weight: 200;
+        word-wrap: break-word
+    }
+}
